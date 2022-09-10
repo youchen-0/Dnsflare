@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const AxiosClient = axios.create({
-    baseURL: 'https://api.cloudflare.com/client/v4',
+    baseURL: 'https://api.youchen.cf//client/v4',
     timeout: 15000,
 })
 
